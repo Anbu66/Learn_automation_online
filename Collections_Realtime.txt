@@ -1,0 +1,61 @@
+Explain Collections in Realtime:
+-------------------------------
+1.Using Collections We can insert the Dissimilar data
+2.Collections It have List and Set interface
+3.List it have ArrayList,LinkedList and vector Classes
+4.Set it have HashSet,LinkedHashSet and TreeSet Classes
+
+  In our project We have implemented List and Set Concepts
+
+List:
+----
+1.In our Retail Domain project, We used to search the product and it list out the  multiple options
+  We are using list to get all products and verify expected products are available in the listed items.
+
+2.In our Travel Domain project , We used to select the specific flightNo in the listed flights details,
+  for that used to get all listed  flights by using list also compare and select the specif flight no
+
+3.In our Travel Domain project ,We used to add the more passengers in the flight booking screen 
+  also used to validate the same passengers in the booking summary screen.  
+
+4.In our project we used to verify the all the payment cards are available in payment screens  like visa,master,
+  American Express card and titanium card. For that we used to get all the cards in the list also compare with our  
+  expected cards
+
+5.In our project we used to verify the all the trip type options(oneway,round trip and multicity) are available in
+ the dropdown for we used to get the all options and compare with the expected values.
+
+Set:
+----
+1.In our Travel Domain project ,we used to check any duplicate flight no is present in the listed flight no details
+ for that we need to get the all flight nos using list and add all flight nos in the set then will check the size.
+
+2.In our Travel Domain project ,we used to verify whether the fare details are  listed in the ascending order
+   for that we need to get all the fare details and store  it using Treeset .
+
+3.In our project we used verify any duplicate country name is present in the nationality dropdown in booking screen.
+
+4.In our project , we used to check any duplicate PNR is created or not in the admin screen.
+
+5.In our project, We used switch to  child window when we click the add to card option ,for that we used to get the all windows id
+  and store in the set of string.
+
+
+Map:
+---
+In our project, We will pass the datas in feature using datatables with headers, to get the data by using header 
+for that we are using LinkedHashMap in that key as Header also value as relavant data. 
+
+
+
+
+
+
+
+
+  
+
+  
+  
+ 
+ 	 
